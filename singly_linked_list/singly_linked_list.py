@@ -78,7 +78,7 @@ class LinkedList:
         # if LL has one item only - check for head.next or check if head is same as tail
         # if self.head.get_next() is None:
         # if self.head.get_next() is None:
-        if self.head == self.tail:
+        if self.head == self.   tail:
             val = self.head.get_value()
             self.head = None
             self.tail = None
